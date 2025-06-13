@@ -3,32 +3,31 @@ import { vars } from 'nativewind';
 
 export const config = {
   light: vars({
-    '--color-primary-0': '179 179 179',
-    '--color-primary-50': '153 153 153',
-    '--color-primary-100': '128 128 128',
-    '--color-primary-200': '115 115 115',
-    '--color-primary-300': '102 102 102',
-    '--color-primary-400': '82 82 82',
-    '--color-primary-500': '51 51 51',
-    '--color-primary-600': '41 41 41',
-    '--color-primary-700': '31 31 31',
-    '--color-primary-800': '13 13 13',
-    '--color-primary-900': '10 10 10',
-    '--color-primary-950': '8 8 8',
+    /* Primary - purple */
+    '--color-primary-50': '250 245 255',
+    '--color-primary-100': '243 232 255',
+    '--color-primary-200': '233 213 255',
+    '--color-primary-300': '216 180 254',
+    '--color-primary-400': '192 132 252',
+    '--color-primary-500': '168 85 247',
+    '--color-primary-600': '147 51 234',
+    '--color-primary-700': '126 34 206',
+    '--color-primary-800': '107 33 168',
+    '--color-primary-900': '88 28 135',
+    '--color-primary-950': '59 7 100',
 
     /* Secondary  */
-    '--color-secondary-0': '253 253 253',
-    '--color-secondary-50': '251 251 251',
-    '--color-secondary-100': '246 246 246',
-    '--color-secondary-200': '242 242 242',
-    '--color-secondary-300': '237 237 237',
-    '--color-secondary-400': '230 230 231',
-    '--color-secondary-500': '217 217 219',
-    '--color-secondary-600': '198 199 199',
-    '--color-secondary-700': '189 189 189',
-    '--color-secondary-800': '177 177 177',
-    '--color-secondary-900': '165 164 164',
-    '--color-secondary-950': '157 157 157',
+    '--color-secondary-50': '239 246 255',
+    '--color-secondary-100': '219 234 254',
+    '--color-secondary-200': '191 219 254',
+    '--color-secondary-300': '147 197 253',
+    '--color-secondary-400': '96 165 250',
+    '--color-secondary-500': '59 130 246',
+    '--color-secondary-600': '37 99 235',
+    '--color-secondary-700': '29 78 216',
+    '--color-secondary-800': '30 64 175',
+    '--color-secondary-900': '30 58 138',
+    '--color-secondary-950': '23 37 84',
 
     /* Tertiary */
     '--color-tertiary-0': '255 250 245',
@@ -152,7 +151,7 @@ export const config = {
     /* Focus Ring Indicator  */
     '--color-indicator-primary': '55 55 55',
     '--color-indicator-info': '83 153 236',
-    '--color-indicator-error': '185 28 28',
+    '--color-indicator-error': '185 28 28'
   }),
   dark: vars({
     '--color-primary-0': '166 166 166',
@@ -304,6 +303,6 @@ export const config = {
     /* Focus Ring Indicator  */
     '--color-indicator-primary': '247 247 247',
     '--color-indicator-info': '161 199 245',
-    '--color-indicator-error': '232 70 69',
-  }),
+    '--color-indicator-error': '232 70 69'
+  })
 };

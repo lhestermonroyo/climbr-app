@@ -1,17 +1,16 @@
-import React, { useState } from 'react';
-import { KeyboardAvoidingView, SafeAreaView, ScrollView } from 'react-native';
-import { useRouter } from 'expo-router';
-import { useToast } from '@/components/ui/toast';
-import { Center } from '@/components/ui/center';
-import { HStack } from '@/components/ui/hstack';
-import { Text } from '@/components/ui/text';
-import { VStack } from '@/components/ui/vstack';
-import { EyeIcon, EyeOffIcon } from '@/components/ui/icon';
 import CButton from '@/components/CButton';
 import CFormInput from '@/components/CFormInput';
-import { Link } from '@/components/ui/link';
+import { Center } from '@/components/ui/center';
+import { HStack } from '@/components/ui/hstack';
+import { EyeIcon, EyeOffIcon } from '@/components/ui/icon';
+import { Text } from '@/components/ui/text';
+import { useToast } from '@/components/ui/toast';
+import { VStack } from '@/components/ui/vstack';
+import { Link, useRouter } from 'expo-router';
+import React, { useState } from 'react';
+import { KeyboardAvoidingView, SafeAreaView, ScrollView } from 'react-native';
 
-const SignUp = () => {
+const Login = () => {
   const [values, setValues] = useState({
     fullname: '',
     email: '',
@@ -118,7 +117,7 @@ const SignUp = () => {
                 <Text size="lg" className="text-gray-500">
                   Already have an account?
                 </Text>
-                <Link onPress={() => router.push('/auth/login')}>
+                <Link onPress={() => router.push('/auth/Login')}>
                   <Text size="lg" className="text-primary-500">
                     Login
                   </Text>
@@ -132,4 +131,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default Login;
